@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	min-height: 100%;
+}
+
+.header {
+	outline: 1px solid black;
+	height: 64px;
+	width: 100%;
+}
+
+.main {
+	flex: 1;
+	outline: 1px solid green;
+	display: flex;
+	justify-content: space-between;
+}
+
+.content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.section {
+	margin: 20px 0; 
+	outline: 1px dashed cyan;
+	width: 330px;
+	height:350px; 
+}
+
+.side {
+	outline: 5px solid purple;
+	width: 20%;
+}
+
+.footer {
+	height: 48px;
+	width: 100%;
+	outline: 1px solid red;
+}
